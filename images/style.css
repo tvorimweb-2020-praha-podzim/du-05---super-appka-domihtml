@@ -1,0 +1,109 @@
+
+
+/*obecne*/
+
+    body {
+        color: 	#282828;
+        font-family: 'Source Sans Pro', sans-serif;
+        margin: 0;
+    }
+
+    ul {
+        list-style-type: none;  
+        margin: 0;  
+        padding: 0;
+    }
+
+
+
+/*hlavicka - rozcestnik*/
+    header ul {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        color: #48418e;
+    }
+    .prvni-slupec {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .druhy-sloupec {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    header li {
+        padding: 0.5rem;
+    }
+    .super {
+        font-weight: bold;
+    }
+
+/*menu*/
+
+    .menu {
+        padding: 0.3rem 0.5rem;
+        background: rgb(72,65,142);
+        background: linear-gradient(90deg, rgba(72,65,142,1) 25%, rgba(170,84,119,1) 100%);
+        color: white;
+    }
+
+    h1 {
+        color: white;
+        font-weight: 400;
+    }
+
+    h2 {
+        color: white;
+        font-weight: 300;
+        font-size: 1.3rem;
+    }
+
+    .tlacitka {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .tlacitka li {
+        border: 1px solid white;
+        border-radius: 7px;
+        width: 250px;
+        text-align: center;
+        align-self: center;
+        margin-bottom: 1.1rem;
+        padding: 1.1rem;
+    }
+
+    .tlacitka li:hover {
+        background-color: #48418e;
+    }
+
+/*main*/
+
+    h3 {
+        color: #48418e;
+    }
+
+    .cestovani, .chat, .dobrodruzstvi {
+        text-align: center;
+        padding: 1.2rem;
+    }
+
+/*paticka*/
+
+
+    footer {
+        background-color: #48418e;
+        text-align: center;
+        color: white;
+        font-weight: 300;
+        font-size: 0.8rem;
+    }
+    footer p {
+        margin: 0;
+        padding: 0.3em;
+    }
+
